@@ -1,1 +1,40 @@
+/*Posibles colores para experimentar:
+/// Fondo verde: #68B98A
+Detalles en amarillo dorado: #F2CD5D
+Detalles en marrón terroso: #8C6239
+
+
+Fondo azul claro: #6CBDE4
+Detalles en blanco: #FFFFFF
+
+Fondo blanco: #FFFFFF
+Detalles en amarillo: #FFD700
+Detalles en rojo: #EC1C24
+
+*/
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+header{
+    background-color: red;
+h1{
+font-size: 3rem;
+}
+}
+
+main{
+    display: flex;
+
+.ingredients{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+
+}
+
+
+
