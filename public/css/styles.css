@@ -11867,12 +11867,20 @@ header h1, header .h1 {
 
 main {
   display: flex;
+  justify-content: space-around;
 }
 main .ingredients {
   background-color: gainsboro;
   display: flex;
   flex-direction: column;
   width: 50%;
+  border-radius: 9%;
+}
+main .time {
+  display: flex;
+  justify-content: center;
+  width: 18.75rem;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=styles.css.map */
