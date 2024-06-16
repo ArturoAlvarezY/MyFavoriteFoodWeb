@@ -11871,6 +11871,9 @@ main .ingredients {
   flex-direction: column;
   width: 50%;
   border-radius: 9%;
+  padding-left: 0.625rem;
+  padding-top: 3.25rem;
+  padding-bottom: 0.625rem;
 }
 main .time {
   display: flex;
