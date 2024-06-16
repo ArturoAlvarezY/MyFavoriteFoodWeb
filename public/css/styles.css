@@ -1,18 +1,4 @@
 @charset "UTF-8";
-/*Posibles colores para experimentar:
-/// Fondo verde: #68B98A
-Detalles en amarillo dorado: #F2CD5D
-Detalles en marrón terroso: #8C6239
-
-
-Fondo azul claro: #6CBDE4
-Detalles en blanco: #FFFFFF
-
-Fondo blanco: #FFFFFF
-Detalles en amarillo: #FFD700
-Detalles en rojo: #EC1C24
-
-*/
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -11859,10 +11845,20 @@ textarea.form-control-lg {
   }
 }
 header {
-  background-color: red;
+  color: black;
 }
 header h1, header .h1 {
+  @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
   font-size: 3rem;
+}
+
+.photoBanner {
+  width: 100%;
+  height: 300px;
+  background-image: url("../../img/tajadas-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 main {
@@ -11903,7 +11899,7 @@ section .container {
   padding: 1.25rem;
 }
 section .step {
-  border: 0.125rem solid #ccc;
+  border: 0.125rem solid gainsboro;
   padding: 0.625rem;
   border-radius: 0.313rem;
 }
@@ -11914,16 +11910,21 @@ section .number {
 }
 
 hr {
-  border: 0.063rem solid #000;
+  border: 0.063rem solid gainsboro;
   margin: 1.25rem 0;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+  padding: 0 1rem;
+  background-color: #333;
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */
